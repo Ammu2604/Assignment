@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* ......HOME..... */
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+nav{
+    display: flex;
+    width:100%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 171, 184);
+    position: sticky;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:rgb(243, 109, 243);
+    box-shadow: 0 0 10px rgb(252, 235, 204);
+    background-color: lightcyan;
+}
+.detail{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.detail h1{
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 20px;
+}
+span{
+    color:orange;
+}
+.detail p{
+    color:burlywood;
+    line-height: 22px;
+}
+.btn{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 2px;
+}
+.images{
+    width:35%;
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    margin-bottom: 10px;
+}
+.images girl{
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+}
+
+/* ....About..... */
+#about{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#pic{
+    display:block;
+}
+#pic img{
+    width: 575px;
+    height: 400px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    padding: 10px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color:rgb(53, 80, 12);
+}
+.headings{
+    color: brown;
+    font-size: 50px;
+}
+#intro p{
+    color:rgb(69, 140, 69); 
+}
+
+/* .......Education.... */
+#education{
+    margin:60px;
+}
+.heading{
+    color: brown;
+    text-align: center;
+    font-size: 50px;
+}
+.columns{
+    display: grid;
+    grid-template-columns: auto;
+    padding-left: 50px;
+    justify-content: center;
+}
+.box{
+    height: 100px;
+    width: 400px;
+    background-color: rgb(171, 171, 236);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+.box h2{
+    color:#A0615F;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.box p{
+    color:rgb(39, 24, 7);
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* .skills... */
+#skills{
+    margin:60px;
+}
+.heading1{
+    color: brown;
+    text-align: center;
+    font-size: 50px;
+}
+.columns1{
+    display: grid;
+    grid-template-columns: auto;
+    padding-left: 50px;
+    justify-content: center;
+}
+.box1{
+    height: 100px;
+    width: 700px;
+    background-color: rgb(248, 204, 123);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+.box1 h2{
+    color:crimson;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    /* text-align: center; */
+}
+
+/* .....contact....... */
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color:#ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration:none;
+    font-size:30px;
+    margin-right:15px;
+    color:#ababab;
+    display: inline-block;
+    transition:0.5s;
+}
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translate(-5px);
+}
+.contact-right{
+    width:100%;
+}
+form input,form textarea{
+    width:40%;
+    border:0;
+    outline:none;
+    background: rgb(250, 250, 126);
+    padding:15px;
+    margin:15px 50px;
+    color:black;
+    font-size: 18px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn2{
+    padding:15px 20px;
+    margin:15px 75px;
+    width:15%;
+    border-radius:20px;
+    background-color:blue;
+    color:white;
+    border:none;
+    outline:none;
+}
+.btn2:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+form btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.subtitle{
+    color: brown;
+    text-align: center;
+    font-size: 50px;
+}
+/* .......copyright.... */
+
+.copyright{
+    width:100%;
+    text-align:center;
+    padding: 10px;
+    background: rgb(245, 171, 184); 
+    font-weight: 300;
+    margin-top: 20px;
+}
